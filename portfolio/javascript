@@ -1,0 +1,22 @@
+// document.querySelector('.btn').addEventListener('click', function() {
+//     document.body.style.backgroundColor = 'lightblue';
+// });
+ 
+ 
+ 
+ 
+function cookiemeldingaccept(){
+    document.querySelector(".cookie-message").style.display="none"
+    console.log("accepted");
+   
+}
+ 
+function cookiemelding(){
+    document.querySelector(".cookie-message").style.display="none"
+    console.log("decline");
+}
+
+ 
+function lightmode(){
+    document.querySelector(".body").classList.toggle("lightmode");
+}

@@ -1,0 +1,282 @@
+.navbar{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    background-color:lightslategray;
+    justify-content: space-evenly;
+
+
+}
+.navbar a{
+    font-size: larger;
+    display: flex;
+    color:white;
+    height: 30px;
+    color: black;
+    padding:5px 5px 5px 5px;
+    border-radius: 50px;
+    font-size: 15px;
+    align-items: center;
+    font-size: large;
+    transition: .4s ease;
+    
+}
+a:hover{
+    color:blue;
+}
+a{
+    text-decoration: none;  
+}
+.body{
+    background-color: black;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text{
+    position: relative;
+    color: white;
+}
+
+#text2{
+    display: flex;
+    align-items:center;
+    color: white;
+    height: 500px;
+    
+    
+    
+}
+
+#text2 img{
+    clip-path: ellipse(163px 229px at 177px 262px);
+    max-height: 500px;
+    
+}
+
+
+#htmlbar{
+width: 0%;
+}
+#contact{
+    background-color:blue;
+    color: white;
+    font-weight: 500;   
+    font-size: x-large;
+    padding:3px 3px 3px 3px;
+    border-radius: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+.icons{
+    display: flex;
+    align-items:center;
+
+}
+.body-overmij{
+    background-image:url(overmij-back2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.overmij-photo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    
+}
+.barchartbase{
+    width: 50%;
+    margin-left: 952px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 60px;
+    font-size: xx-large;
+    
+}
+.overmij-text{
+    color: white;
+    display: flex;
+   justify-content: center;
+   
+    
+}
+.overmij-text2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+  
+}
+.barchartbase2{
+    width: 50%;
+    margin-left: 952px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 60px;
+    font-size: xx-large;
+   line-height: 10;
+}
+.text-barchartbase{
+    color: white;
+    margin-top: 100px;
+    display: flex; 
+    align-items: center;
+    font-size: 100PX;
+ 
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.body-contact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+    .text-project{
+        line-height: 2;
+       
+    }
+#img-project{
+    clip-path: ellipse(254px 283px at 178px 195px);
+    
+}
+.body-project{
+    background-image:url(project-img2.jpg);
+}
+.body-interview{
+    background-image: url(interview-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.interview-text{
+    line-height: 2;
+    color: white;
+    
+}
+.cookie-message {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    flex-direction: row;
+ }
+  
+ .cookie-message button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+ }
+  
+ .cookie-message button:hover {
+    background-color: #45a049;
+ }
+ .home {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+  }
+  .lightmode{
+    background-color: white;
+    color: black;
+ }
+
+.lightmode h1{
+    color: black;
+}
+.lightmode p{
+    color: black;
+}
+
+
+ .lightmode button{
+    position: fixed;  
+    top: 20px;        
+    right: 20px;      
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;    
+    border: none;      
+    border-radius: 5px;
+    cursor: pointer;  
+    font-size: 16px;
+    margin-left: 20px;
+ }
+  
+  .dark-mode {
+    background-color: white;
+    color: black;
+  }
+  
+
+
+
+
+
+
+
+
